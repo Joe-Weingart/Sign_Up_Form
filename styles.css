@@ -30,17 +30,17 @@ form {
 }
 
 .logo {
-    width: 100%;
     display: flex;
     background-image: url(./netherlands.jpeg);
     background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1;
 
+    width: 600px;
    
-    width: auto;
     border-radius: 3px;
-    height: auto;
-    max-width: 100%;
+   
+   
 
     flex-direction: column;
 
@@ -49,8 +49,8 @@ form {
 }
 
 .header {
-    width: 200px;
-    padding: 30px;
+    width: 100%;
+    
     background-size: 100%;
-    justify-self: flex-start;
+    
 }
